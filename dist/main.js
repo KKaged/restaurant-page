@@ -1,1 +1,1 @@
-(()=>{alert("Test");const e=document.querySelector("#content"),t=document.createElement("div");t.classList.add("navBar"),e.appendChild(t)})();
+alert("This is a test."),console.log("This is the second test."),document.querySelector("#content"),document.createElement("div");
