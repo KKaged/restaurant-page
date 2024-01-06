@@ -1,1 +1,1 @@
-alert("This is a test."),console.log("This is the second test."),document.querySelector("#content"),document.createElement("div");
+(()=>{const e=document.getElementById("content"),t=document.createElement("nav");t.className="nav",e.appendChild(t),["Home","About","Contact"].map((e=>{document.createElement("li");const n=document.createElement("a");n.textContent=e,t.appendChild(n)}))})();
