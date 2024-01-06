@@ -7,5 +7,7 @@ listItems.map((item) => {
   const listItem = document.createElement("li");
   const anchor = document.createElement("a");
   anchor.textContent = item;
-  nav.appendChild(anchor);
+  anchor.href = `${item.toLowerCase()}.html`;
+  listItem.appendChild(anchor);
+  nav.appendChild(listItem);
 });

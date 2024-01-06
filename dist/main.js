@@ -1,1 +1,1 @@
-(()=>{const e=document.getElementById("content"),t=document.createElement("nav");t.className="nav",e.appendChild(t),["Home","About","Contact"].map((e=>{document.createElement("li");const n=document.createElement("a");n.textContent=e,t.appendChild(n)}))})();
+(()=>{const e=document.getElementById("content"),t=document.createElement("nav");t.className="nav",e.appendChild(t),["Home","About","Contact"].map((e=>{const n=document.createElement("li"),a=document.createElement("a");a.textContent=e,a.href=`${e.toLowerCase()}.html`,n.appendChild(a),t.appendChild(n)}))})();

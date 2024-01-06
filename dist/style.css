@@ -16,13 +16,16 @@
     letter-spacing: 2px;
 }
 
+li a {
+    text-decoration: none;
+}
+
 li {
     padding: 10px;
     border-radius: 5px;
-
 }
 
-li:hover {
+li :hover {
     background-color: #fff;
     color: #000;
     border-radius: 5px;
